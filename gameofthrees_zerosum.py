@@ -1,3 +1,11 @@
+'''
+To make it more fun (and make it a 1-player instead of a 0-player[2] game), let's change the rules a bit: You can now add any of [-2, -1, 1, 2] to reach a multiple of 3.
+This gives you two options at each step, instead of the original single option. With this modified rule, find a Threes sequence to get to 1, with this extra condition:
+The sum of all the numbers that were added must equal 0. If there is no possible correct solution, print Impossible.
+'''
+
+##Solution:
+
 import sys
 
 def main(args):
