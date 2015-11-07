@@ -4,11 +4,9 @@ This gives you two options at each step, instead of the original single option. 
 The sum of all the numbers that were added must equal 0. If there is no possible correct solution, print Impossible.
 '''
 
-##Solution:
+# Solution:
 
-import sys
-
-def main(args):
+def main():
     n = int(input("Enter a number to begin: "))
     if 0 in balances(n):
         show_path(n)
@@ -41,4 +39,4 @@ def show_path(n):
     print(1)
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
+    main()

@@ -5,7 +5,7 @@ followed by either -1 or 1 (if you are adding/subtracting 1 before dividing), or
 last line should simply be 1.
 '''
 
-##Solution:
+# Solution:
 
 number = int(input("Enter a number to begin: "))
 
