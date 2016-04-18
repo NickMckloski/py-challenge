@@ -1,3 +1,3 @@
-# py-challenge
+# random stuff
 
-exercises I have done in python saved here for reference in the future.
+This is just a repository where I keep a ton of random scripts and things I make that don't fit into other repos.
